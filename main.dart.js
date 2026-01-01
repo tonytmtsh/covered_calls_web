@@ -62663,93 +62663,95 @@ case 3:s=r.a
 return(s.e+s.d)/2}},
 ar(){this.aH()
 this.x0()},
-x0(){var s=0,r=A.y(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3
-var $async$x0=A.u(function(c5,c6){if(c5===1){p.push(c6)
+x0(){var s=0,r=A.y(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4
+var $async$x0=A.u(function(c6,c7){if(c6===1){p.push(c7)
 s=q}for(;;)switch(s){case 0:q=3
-b1={}
-b2=o.d
+b2={}
+b3=o.d
 s=6
-return A.r(b2.Ix(o.a.c),$async$x0)
-case 6:n=c6
+return A.r(b3.Ix(o.a.c),$async$x0)
+case 6:n=c7
 s=7
-return A.r(b2.CG(o.a.c),$async$x0)
-case 7:m=c6
-if(n==null){b2=A.dx("No symbol data found for "+o.gaL().c)
-throw A.k(b2)}b3=n.i(0,"description")
-l=b3==null?o.a.c:b3
-b1.a=null
-if(n.i(0,"last_updated")!=null)b1.a=A.eX(n.i(0,"last_updated"))
+return A.r(b3.CG(o.a.c),$async$x0)
+case 7:m=c7
+if(n==null){b3=A.dx("No symbol data found for "+o.gaL().c)
+throw A.k(b3)}b4=n.i(0,"description")
+l=b4==null?o.a.c:b4
+b2.a=null
+if(n.i(0,"last_updated")!=null)b2.a=A.eX(n.i(0,"last_updated"))
 J.ix(m)
 k=A.aV(t.N)
 j=A.c([],t.If)
-for(b2=J.bD(m);b2.v();){i=b2.gU()
+for(b3=J.bD(m);b3.v();){i=b3.gU()
 h=A.ax(J.aO(i,"expiration_date"))
 if(!J.l_(k,h)){J.f6(k,h)
-try{J.f6(j,A.eX(h))}catch(c4){}}}if(J.aF(j)<2)if(J.aF(j)!==0)J.f6(j,J.ke(j).q9(2592e9))
+try{J.f6(j,A.eX(h))}catch(c5){}}}if(J.aF(j)<2)if(J.aF(j)!==0)J.f6(j,J.ke(j).q9(2592e9))
 else{J.f6(j,new A.bv(Date.now(),0,!1))
 J.f6(j,new A.bv(Date.now(),0,!1).q9(2592e9))}J.Al(j,new A.b6i())
 g=0
-for(f=0;f<J.aF(j)-1;++f){b2=J.aO(j,f+1)
-b5=J.aO(j,f)
-e=B.f.dj(b2.b-b5.b+1000*(b2.a-b5.a),864e8)
+for(f=0;f<J.aF(j)-1;++f){b3=J.aO(j,f+1)
+b6=J.aO(j,f)
+e=B.f.dj(b3.b-b6.b+1000*(b3.a-b6.a),864e8)
 g+=e}d=g/(J.aF(j)-1)
 c=Math.floor(365/(d>0?d:30))
 b=c/o.w
 a=o.grM()*100
 a0=a*b
-b1.b=b1.c=0
+b2.b=b2.c=0
 a1=0
-if(o.a.z){if(n.i(0,"dividend_amount")!=null)b1.b=A.eK(n.i(0,"dividend_amount"))
-if(b1.b===0&&n.i(0,"dividend_yield")!=null){a1=A.eK(n.i(0,"dividend_yield"))
-if(a1>0)b1.b=o.a.r*a1}b2=b1.c=b1.b*100}else b2=0
-b1.d=0
-b5=o.a
-if(b5.z)b5=b1.d=b5.r*100
-else{b6=b5.y
-b5=b1.d=(b6==null?b5.r:b6)*100}a2=a0+b2
-a3=b5>0?a2/b5*100:0
-a4=null
-if(n.i(0,"ex_dividend_date")!=null)try{a4=A.eX(A.ax(n.i(0,"ex_dividend_date")))}catch(c4){a5=A.a6(c4)
-A.w1().$1("Error parsing dividend date: "+A.n(a5))}b1.e=b1.f=null
-b2=o.a
-if(b2.z&&b2.x!=null&&a4!=null&&b1.b>0){a6=b2.x.q9(-6048e8)
-if(a4.tE(a6)){b2=a4
-b5=o.a.x
-b5.toString
-b5=b2.yK(b5)
-b2=b5}else b2=!1
-if(b2)b1.e=b1.f=b1.b*100}a7=o.grM()*100
-b2=b1.f
-if(b2==null)b2=0
-a8=a7+b2
-b2=b1.d
-b5=b2>0
-a9=b5?a8/b2*100:0
-b1.r=b1.w=b1.x=b1.y=b1.z=b1.Q=b1.as=null
+if(o.a.z){if(n.i(0,"dividend_amount")!=null)b2.b=A.eK(n.i(0,"dividend_amount"))
+if(b2.b===0&&n.i(0,"dividend_yield")!=null){a1=A.eK(n.i(0,"dividend_yield"))
+if(a1>0)b2.b=o.a.r*a1}b3=b2.c=b2.b*100}else b3=0
+b2.d=0
 b6=o.a
-b7=b6.y
-if(b7!=null){b8=b6.z
-b6=b6.r
-if(b8){b9=(b7-b6)*100
-b1.as=b9
-b6=b1.e
-if(b6==null)b6=0
-c0=b9+a7+b6
-b1.Q=c0
-b1.z=b5?c0/b2*100:0}else{c1=b7-o.grM()
-b1.y=c1
-c2=b6-b7
-b1.x=c2
-b2=b6>0
-b1.w=b2?c2/b6*100:0
-b1.r=b2?(b6-c1)/b6*100:0}}if(o.c!=null)o.M(new A.b6j(b1,o,l,d,b,a0,a2,a3,a8,a9))
+if(b6.z)b6=b2.d=b6.r*100
+else{b7=b6.y
+b6=b2.d=(b7==null?b6.r:b7)*100}a2=a0+b3
+a3=b6>0?a2/b6*100:0
+a4=null
+if(n.i(0,"ex_dividend_date")!=null)try{a4=A.eX(A.ax(n.i(0,"ex_dividend_date")))}catch(c5){a5=A.a6(c5)
+A.w1().$1("Error parsing dividend date: "+A.n(a5))}b2.e=b2.f=null
+b3=o.a
+if(b3.z&&b3.x!=null&&a4!=null&&b2.b>0){a6=b3.x.q9(-6048e8)
+if(a4.tE(a6)){b3=a4
+b6=o.a.x
+b6.toString
+b6=b3.yK(b6)
+b3=b6}else b3=!1
+if(b3){a7=b2.b/4*100
+b2.f=a7
+b2.e=a7}}a8=o.grM()*100
+b3=b2.f
+if(b3==null)b3=0
+a9=a8+b3
+b3=b2.d
+b6=b3>0
+b0=b6?a9/b3*100:0
+b2.r=b2.w=b2.x=b2.y=b2.z=b2.Q=b2.as=null
+b7=o.a
+b8=b7.y
+if(b8!=null){b9=b7.z
+b7=b7.r
+if(b9){c0=(b8-b7)*100
+b2.as=c0
+b7=b2.e
+if(b7==null)b7=0
+c1=c0+a8+b7
+b2.Q=c1
+b2.z=b6?c1/b3*100:0}else{c2=b8-o.grM()
+b2.y=c2
+c3=b7-b8
+b2.x=c3
+b3=b7>0
+b2.w=b3?c3/b7*100:0
+b2.r=b3?(b7-c2)/b7*100:0}}if(o.c!=null)o.M(new A.b6j(b2,o,l,d,b,a0,a2,a3,a9,b0))
 q=1
 s=5
 break
 case 3:q=2
-c3=p.pop()
-b0=A.a6(c3)
-if(o.c!=null)o.M(new A.b6k(o,b0))
+c4=p.pop()
+b1=A.a6(c4)
+if(o.c!=null)o.M(new A.b6k(o,b1))
 s=5
 break
 case 2:s=1
@@ -62823,7 +62825,7 @@ p=p==null?i:B.e.a1(p,2)
 p=s+("   Effective Purchase Price: $"+A.n(d)+"\n")+("   Discount vs Current: $"+A.n(r)+" ("+A.n(q)+"%)\n")+("   Breakeven Discount: "+A.n(p)+"%\n")
 d=p}else d=s}A.qg(new A.n4(d.charCodeAt(0)==0?d:d))
 j.c.a3(t.L).f.eu(B.bhx)},
-I(a1){var s,r,q,p,o,n,m,l,k=this,j=null,i="MM/dd/yy HH:mm",h="Call",g="Put",f="Premium Received",e="Ex-Dividend (week before expiry)",d="Total Gain",c=k.a,b=A.T(c.z?"Covered Call":"Cash Secured Put",j,j,j,j,B.bko,j,j,j),a=k.x,a0=a!=null&&a!==c.c
+I(a1){var s,r,q,p,o,n,m,l,k=this,j=null,i="MM/dd/yy HH:mm",h="Call",g="Put",f="Premium Received",e="Ex-Dividend (25% of Annual)",d="Total Gain",c=k.a,b=A.T(c.z?"Covered Call":"Cash Secured Put",j,j,j,j,B.bko,j,j,j),a=k.x,a0=a!=null&&a!==c.c
 c=c.c
 s=t.p
 c=A.cz(A.bg(A.c([b,A.T(a0?a+" ("+c+")":c,j,B.bh,j,j,B.a_a,j,j,j)],s),B.ab,B.p,B.r),1)
