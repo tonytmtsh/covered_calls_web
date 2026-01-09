@@ -66686,7 +66686,7 @@ for(;;)switch(s){case 0:k=p.a
 j=k.gf8().c
 i=j==null?null:j.r
 s=3
-return A.p(k.cU("messages").lZ("*, profiles(screen_name), user_message_states(is_archived)").pf("is_sticky",!1).pf("created_at",!1).a46(100),$async$Lz)
+return A.p(k.cU("messages").lZ("*, profiles!user_id(screen_name), user_message_states(is_archived)").pf("is_sticky",!1).pf("created_at",!1).a46(100),$async$Lz)
 case 3:h=b
 g=A.c([],t.gG)
 for(k=J.bF(h),j=t.kc;k.E();){o=k.gY()
