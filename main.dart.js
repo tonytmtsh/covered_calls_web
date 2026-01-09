@@ -65062,7 +65062,7 @@ n.push(A.K(f,k,k,k,k,B.a_2,k,k,k))
 n=A.b_(n,B.o,B.k,B.m,0,k)
 if(!$.be){A.d0()
 $.be=!0}m=A.cW(r,$.dV().cY("America/New_York"))
-l=A.c([A.K(A.cX("MM/dd HH:mm",k).bi(m),k,k,k,k,B.b6N,k,k,k),B.bZ,A.ef(k,!1,k,B.cp,k,k,k,k,k,B.adY,k,k,k,k,new A.bcT(j,h),B.R,k,k,k,k,"Archive Message",k)],o)
+l=A.c([A.K(A.cX("MM/dd hh:mm a",k).bi(m),k,k,k,k,B.b6N,k,k,k),B.bZ,A.ef(k,!1,k,B.cp,k,k,k,k,k,B.adY,k,k,k,k,new A.bcT(j,h),B.R,k,k,k,k,"Archive Message",k)],o)
 if(this.b)l.push(new A.al(B.abJ,A.ef(k,!1,k,B.cp,k,k,k,k,k,B.ae2,k,k,k,k,new A.bcU(j,h),B.R,k,k,k,k,"Delete Message",k),k))
 return A.r8(new A.al(B.ll,A.b7(A.c([A.b_(A.c([n,A.b_(l,B.o,B.k,B.m,0,k)],o),B.o,B.b3,B.m,0,k),B.bw,new A.a7i(s,B.ZW,k)],o),B.a3,B.k,B.m),k),p,k,B.cP,!0,k)},
 $S:190}
@@ -65143,13 +65143,13 @@ if(a==null)return"-"
 if(A.kK(a)){s=A.k8(a,0,!1)
 if(!$.be){A.d0()
 $.be=!0}r=A.cW(new A.b2(s,0,!1),$.dV().cY("America/New_York"))
-return A.cX("MM/dd/yyyy HH:mm",null).bi(r)}return J.aS(a)},
+return A.cX("MM/dd/yyyy hh:mm a",null).bi(r)}return J.aS(a)},
 aMS(a){var s,r,q
 if(a==null)return"-"
 try{s=A.dW(J.aS(a))
 if(!$.be){A.d0()
 $.be=!0}r=A.cW(s,$.dV().cY("America/New_York"))
-s=A.cX("MM/dd/yyyy HH:mm",null).bi(r)
+s=A.cX("MM/dd/yyyy hh:mm a",null).bi(r)
 return s}catch(q){s=J.aS(a)
 return s}}}
 A.aMA.prototype={
@@ -65682,7 +65682,7 @@ else{s=k.ay
 if(s!=null){s=A.dW(s.i(0,"created_at"))
 if(!$.be){A.d0()
 $.be=!0}r=A.cW(s,$.dV().cY("America/New_York"))
-s=A.cX("MM/dd/yyyy HH:mm",j).bi(r)+"\n"+A.l(k.ay.i(0,"message"))}else s="No scheduled updates recorded yet."
+s=A.cX("MM/dd/yyyy hh:mm a",j).bi(r)+"\n"+A.l(k.ay.i(0,"message"))}else s="No scheduled updates recorded yet."
 s=A.r8(A.kg(!1,j,j,j,!0,j,!0,!0,B.ae6,j,j,j,!1,j,j,j,j,A.K(s,j,j,j,j,j,j,j,j),j,B.ba1,j,j,j),B.nh,j,j,!0,j)
 q=A.pn(B.CZ,B.bc8,new A.bm0(k,a),j)
 p=k.w
@@ -65863,7 +65863,7 @@ p=A.eb(A.K(q.bi(a.i(0,"holdings")),l,l,l,l,l,l,l,l))
 o=A.eb(A.K(q.bi(a.i(0,"lots")),l,l,l,l,l,l,l,l))
 if(k!=null){if(!$.be){A.d0()
 $.be=!0}n=A.cW(k,$.dV().cY("America/New_York"))
-m=A.cX("MM/dd/yyyy HH:mm",l).bi(n)}else m="-"
+m=A.cX("MM/dd/yyyy hh:mm a",l).bi(n)}else m="-"
 return A.bsw(A.c([j,s,r,p,o,A.eb(A.K(m,l,l,l,l,l,l,l,l)),A.eb(A.K(q.bi(a.i(0,"loginsMonth")),l,l,l,l,l,l,l,l))],t.sa),l)},
 $S:893}
 A.bm9.prototype={
@@ -65871,7 +65871,7 @@ $2(a,b){var s,r=null,q=J.ae(this.a.f,b),p=A.dW(q.i(0,"created_at")),o=q.i(0,"eve
 o=A.K(o==null?"Unknown Event":o,r,r,r,r,r,r,r,r)
 if(!$.be){A.d0()
 $.be=!0}s=A.cW(p,$.dV().cY("America/New_York"))
-return A.kg(!1,r,!0,r,!0,r,!0,r,r,r,r,r,!1,r,r,r,r,A.K(A.cX("MM/dd/yyyy HH:mm",r).bi(s)+" - "+A.l(q.i(0,"message")),r,r,r,r,r,r,r,r),r,o,r,r,r)},
+return A.kg(!1,r,!0,r,!0,r,!0,r,r,r,r,r,!1,r,r,r,r,A.K(A.cX("MM/dd/yyyy hh:mm a",r).bi(s)+" - "+A.l(q.i(0,"message")),r,r,r,r,r,r,r,r),r,o,r,r,r)},
 $S:352}
 A.blM.prototype={
 $1(a){var s=null
@@ -67798,7 +67798,7 @@ break
 case 5:return A.w(null,r)
 case 1:return A.v(p.at(-1),r)}})
 return A.x($async$z6,r)},
-aJx(){var s,r,q,p,o,n,m,l,k,j=this,i=null,h="MM/dd/yyyy HH:mm",g="America/New_York",f="   Premium Received: $",e="   Ex-Dividend: $",d="   Total Gain: $",c=j.a,b=c.z?"Covered Call":"Cash Secured Put",a=j.x
+aJx(){var s,r,q,p,o,n,m,l,k,j=this,i=null,h="MM/dd/yyyy hh:mm a",g="America/New_York",f="   Premium Received: $",e="   Ex-Dividend: $",d="   Total Gain: $",c=j.a,b=c.z?"Covered Call":"Cash Secured Put",a=j.x
 c=c.c
 s=Date.now()
 if(!$.be){A.d0()
@@ -67895,7 +67895,7 @@ s=s==null?p:B.d.a6(s,2)
 o.a=l+("Option 2 (Assigned): Discount $"+A.l(n)+" ("+A.l(s)+"%)\n")}n=q.c
 n.toString
 A.bx(n,!1).fM(A.kh(new A.bd9(o),p,t.z))},
-K(a3){var s,r,q,p,o,n,m,l,k,j=this,i=null,h="MM/dd/yyyy HH:mm",g="America/New_York",f="Call",e="Put",d="Premium Received",c="Ex-Dividend (25% of Annual)",b="Total Gain",a=j.a,a0=A.K(a.z?"Covered Call":"Cash Secured Put",i,i,i,i,B.b6y,i,i,i),a1=j.x,a2=a1!=null&&a1!==a.c
+K(a3){var s,r,q,p,o,n,m,l,k,j=this,i=null,h="MM/dd/yyyy hh:mm a",g="America/New_York",f="Call",e="Put",d="Premium Received",c="Ex-Dividend (25% of Annual)",b="Total Gain",a=j.a,a0=A.K(a.z?"Covered Call":"Cash Secured Put",i,i,i,i,B.b6y,i,i,i),a1=j.x,a2=a1!=null&&a1!==a.c
 a=a.c
 s=t.p
 a=A.cq(A.b7(A.c([a0,A.K(a2?a1+" ("+a+")":a,i,B.bk,i,i,B.ZZ,i,i,i)],s),B.a3,B.k,B.m),1)
@@ -68734,7 +68734,7 @@ else if(q==="M")q="Mutual Fund"
 r=g.a.c
 if(!$.be){A.d0()
 $.be=!0}p=A.cW(r.p2,$.dV().cY("America/New_York"))
-o=A.cX("MM/dd/yyyy HH:mm",f).bi(p)
+o=A.cX("MM/dd/yyyy hh:mm a",f).bi(p)
 r=new A.aD(A.c([s,q],t.s),new A.bjn(),t.He).cv(0," \u2022 ")
 n=g.a.c
 m=n.c
