@@ -77808,7 +77808,7 @@ n=q.a
 m=n.a
 s=A.bR(!1,B.aZ,p,p,!0,p,p,m?p:new A.bi9(q.e),p,p)
 r=k.length
-n=r<2||m?p:new A.bia(n,q.b,b,q.e,a,q.f,k,h)
+n=r<2||m?p:new A.bia(n,q.b,a,b,q.f,k,q.e,h)
 if(m)m=B.u3
 else m=A.C("Merge "+A.m(r>=2?r:"")+" Lots",p,p,p,p,p,p,p,p)
 return A.dL(A.b([s,A.e4(m,n,p)],l),p,o,B.a_,B.ay,B.bB9)},
@@ -77839,36 +77839,35 @@ $0(){A.ba(this.a,!1).ca(null)
 return null},
 $S:0}
 A.bia.prototype={
-$0(){var s=0,r=A.v(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e
-var $async$$0=A.q(function(a,b){if(a===1){p.push(b)
-s=q}for(;;)switch(s){case 0:g=o.c
-f=o.a
-g.$1(new A.bi1(f))
-k=o.d
-n=A.ba(k,!1)
-m=o.e.Z(t.q).f
-q=3
-j=o.r
+$0(){var s=0,r=A.v(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f
+var $async$$0=A.q(function(a,b){if(a===1){o.push(b)
+s=p}for(;;)switch(s){case 0:i=n.c.Z(t.q).f
+h=n.d
+g=n.a
+h.$1(new A.bi1(g))
+p=4
+l=n.f
+s=7
+return A.l(n.e.uC(l),$async$$0)
+case 7:k=n.r
+if(k.e==null){s=1
+break}A.ba(k,!0).fU()
+i.bO(A.cr(null,null,null,null,null,B.n,null,A.C("Merged "+l.length+" lots into one (avg cost: $"+B.d.a3(n.w,2)+")",null,null,null,null,null,null,null,null),null,B.B,null,null,null,null,null,null,null,null,null,null))
+l=n.b
+if(l.c!=null)l.O(new A.bi2(l))
+p=2
 s=6
-return A.l(o.f.uC(j),$async$$0)
-case 6:i=o.b
-if(i.c!=null)i.O(new A.bi2(i))
-if(k.e!=null)n.fU()
-m.bO(A.cr(null,null,null,null,null,B.n,null,A.C("Merged "+j.length+" lots into one (avg cost: $"+B.d.a3(o.w,2)+")",null,null,null,null,null,null,null,null),null,B.B,null,null,null,null,null,null,null,null,null,null))
-q=1
-s=5
 break
-case 3:q=2
-e=p.pop()
-l=A.a_(e)
-if(k.e!=null)g.$1(new A.bi3(f))
-m.bO(A.cr(null,null,null,null,null,B.n,null,A.C("Error merging lots: "+A.m(l),null,null,null,null,null,null,null,null),null,B.B,null,null,null,null,null,null,null,null,null,null))
-s=5
+case 4:p=3
+f=o.pop()
+m=A.a_(f)
+if(n.r.e!=null){h.$1(new A.bi3(g))
+i.bO(A.cr(null,null,null,null,null,B.n,null,A.C("Error merging lots: "+A.m(m),null,null,null,null,null,null,null,null),null,B.B,null,null,null,null,null,null,null,null,null,null))}s=6
 break
-case 2:s=1
+case 3:s=2
 break
-case 5:return A.t(null,r)
-case 1:return A.r(p.at(-1),r)}})
+case 6:case 1:return A.t(q,r)
+case 2:return A.r(o.at(-1),r)}})
 return A.u($async$$0,r)},
 $S:2}
 A.bi1.prototype={
